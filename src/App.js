@@ -1,23 +1,52 @@
-import logo from './logo.svg';
 import './App.css';
+import React, { useCallback, useMemo } from "react"
+import { Menu } from 'antd';
 
 function App() {
+  const getItem = useCallback((label, key, icon, children, type) => {
+    return {
+      key,
+      icon,
+      children,
+      label,
+      type,
+    };
+  }, [])
+
+  let items = useMemo(() => {
+    let items = [
+      getItem("Get to know me", "about"),
+      getItem("Experience", "experience"),
+      getItem("Technologies I work with", "tech"),
+      getItem("Resume", "resume"),
+  
+    ]
+    return items
+  }, [getItem])
+
+  const handleNavClick = (e) => {
+
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+        <div className='sider-menu'>
+        <div className='header font-xl p-m main-bc'>
+          Ivan Codes
+        </div>
+        <Menu
+          onClick={handleNavClick}
+          style={{
+            width: 256,
+            height: 500
+          }}
+          className="navigation"
+          theme="dark"
+          defaultSelectedKeys={['1']}
+          defaultOpenKeys={['sub1']}
+          mode="inline"
+          items={items}
+        />
+      </div>
     </div>
   );
 }
