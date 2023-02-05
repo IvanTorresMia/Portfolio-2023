@@ -84,33 +84,34 @@
 .p-l-l{
     padding-left: @padding-lg;
 }
+*/
 .p-t-0{
     padding-top: 0 !important;
 }
 .p-t-xs{
-    padding-top: @padding-xs;
+    padding-top: 10px;
 }
 .p-t-sm{
-    padding-top: @padding-sm;
+    padding-top: 12px;
 }
 .p-t-m{
-    padding-top: @padding-md;
+    padding-top: 16px;
 }
 .p-t-l{
-    padding-top: @padding-lg;
+    padding-top: 20px;
 }
 .p-b-0{
     padding-bottom: 0 !important;
 }
 .p-b-xs {
-    padding-bottom: @padding-xs;
+    padding-bottom: 10px;
 }
 .p-b-sm{
-    padding-bottom: @padding-sm;
+    padding-bottom: 12px;
 }
 .p-b-m{
-    padding-bottom: @padding-md;
+    padding-bottom: 16px;
 }
 .p-b-l{
-    padding-bottom: @padding-lg;
-} */
+    padding-bottom: 20px;
+}

@@ -1,11 +1,19 @@
 root {
-    --main-color: rgb(0,22,40);
+    --main-color: #003a8c;
 }
 
 
 
 
 .main-bc {
-    background-color: rgb(0,22,40);
-    color: #fff
+    background-color: #002766;
+    color: #fff !important;
+}
+
+.text-color-w {
+    color: #fff !important;
+}
+
+.secondary-c {
+    color: #006d75 !important;
 }

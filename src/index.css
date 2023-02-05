@@ -7,13 +7,11 @@ body {
 }
 
 .sider-menu {
-    position: absolute;
+    position: fixed;
     display: flex;
     flex-direction: column;
     left:0;
     right: 0;
-    /* bottom: 0;
-    top: 0; */
     justify-content: space-between;
     font-weight: 600;
 }
