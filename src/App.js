@@ -24,7 +24,7 @@ function App() {
     let items = [
       getItem("Get to know me", "about", <FontAwesomeIcon icon={faAddressBook} />),
       getItem("Experience", "experience", <FontAwesomeIcon icon={faBusinessTime} />),
-      getItem("Technologies I work with", "tech", <FontAwesomeIcon icon={faCode} />),
+      getItem("Tech I work with", "tech", <FontAwesomeIcon icon={faCode} />),
       getItem("Resume", "resume",   <FontAwesomeIcon icon={faFile} />),
 
     ]
@@ -38,7 +38,7 @@ function App() {
     <div className="container main-bc">
       <div className='sider-menu'>
         <div className='header font-xl p-m main-bc d-flex justify-content-between'>
-          <div className='text-color-w'>
+          <div className='text-color-w font-robo'>
             Ivan Codes
           </div>
           <div className='d-flex justify-content-between' style={{ width: "100px"}}>
@@ -53,7 +53,7 @@ function App() {
             width: 256,
             height: 500
           }}
-          className="navigation main-bc"
+          className="navigation main-bc font-robo"
           theme="dark"
           defaultSelectedKeys={['1']}
           defaultOpenKeys={['sub1']}

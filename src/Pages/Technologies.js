@@ -9,7 +9,7 @@ import { Typography } from "antd";
 import { Progress } from 'antd';
 let { Text, Title } = Typography;
 
-const strokeColor = "#006d75";
+const strokeColor = "#13c2c2";
 const trailColor = "#fff"
 const Technologies = () => {
 
@@ -17,7 +17,7 @@ const Technologies = () => {
         return [
             {
                 icon: faJs,
-                text: "JavaScript",
+                text: "JavaScript(ES6+)",
                 percent: 90
             },
             {
@@ -52,14 +52,14 @@ const Technologies = () => {
 
     return (
         <div className='h-vh main-bc d-flex flex-column w-60 m-auto text-center'>
-            <Title className='text-color-w p-b-l'>
+            <Title className='text-color-w p-b-l title'>
                 Some technologies I have worked with
             </Title>
             {technologies.map((item, i) => (
                 <div key={i} className='d-flex p-b-xl'>
                     <div className='icon-section d-flex flex-column' style={{ width: "200px" }}>
                         <FontAwesomeIcon icon={item.icon} className='p-r-sm fa-lg' />
-                        <Text className='text-color-w font-lg'>{item.text}</Text>
+                        <Text className='text-color-w font-lg font-robo'>{item.text}</Text>
                     </div>
                     <Progress style={{ color: "white !important" }} strokeColor={strokeColor} trailColor={trailColor} className='text-color-w' percent={item.percent} />
                 </div>
@@ -69,7 +69,7 @@ const Technologies = () => {
                     I've also worked with
                 </Text>
 
-                <Text className='text-color-w'>Loadash, Express, C#, Entity Framework, Antd Design, Bootstrap, Material UI and more... </Text>
+                <Text className='text-color-w'>Loadash, Express, C#, Entity Framework, Antd Design, Bootstrap, Material UI, TypeScript and more... </Text>
             </div>
         </div>
     )
