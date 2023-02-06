@@ -4,6 +4,7 @@ import './index.css';
 import './css/helpers.css'
 import './css/spacing.css'
 import './css/colors.css'
+import './css/overrides.css'
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 

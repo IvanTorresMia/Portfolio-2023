@@ -7,6 +7,7 @@ import { faFacebook, faGithub, faInstagram } from '@fortawesome/free-brands-svg-
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFile, faAddressBook } from '@fortawesome/free-regular-svg-icons'
 import { faCode, faBusinessTime } from "@fortawesome/free-solid-svg-icons"
+import Technologies from './Pages/Technologies';
 
 function App() {
   const getItem = useCallback((label, key, icon, children, type) => {
@@ -62,6 +63,7 @@ function App() {
       </div>
       <Hero />
       <AboutMe />
+      <Technologies />
     </div>
   );
 }

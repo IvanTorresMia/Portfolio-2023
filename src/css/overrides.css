@@ -1,0 +1,11 @@
+.icon-section {
+    margin-top: -24px;
+}
+
+.icon-section > svg {
+    margin-left: 11px;
+}
+
+.ant-progress-text {
+    color: #fff !important
+}
