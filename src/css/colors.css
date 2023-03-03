@@ -1,20 +1,17 @@
 root {
-    --main-color: #003a8c;
+  --main-color: #000000;
 }
 
-
-
-
 .main-bc {
-    background-color: #002766;
-    color: #fff !important;
+  background-color: #000000;
+  color: #fff !important;
 }
 
 .text-color-w {
-    color: #fff !important;
+  color: #fff !important;
 }
 
 .secondary-c {
-    /* color: #006d75 !important; */
-    color: #13c2c2 !important;
+  /* color: #006d75 !important; */
+  color: #13c2c2 !important;
 }
