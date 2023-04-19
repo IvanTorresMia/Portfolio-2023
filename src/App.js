@@ -12,7 +12,7 @@ import Main from "./Pages/Main";
 
 function App() {
   return (
-    <div className="container main-bc">
+    <div className="main-bc">
       <div className="sider-menu">
         <div className="header font-xl p-m main-bc d-flex justify-content-between">
           <div className="text-color-w font-robo">Ivan Codes</div>
