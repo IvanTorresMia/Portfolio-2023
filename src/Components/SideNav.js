@@ -31,7 +31,7 @@ const SideNav = () => {
             duration={500}
             offset={-100}
           >
-           My experience
+            My experience
           </Link>
         ),
         key: "experience",
@@ -46,7 +46,7 @@ const SideNav = () => {
             duration={500}
             offset={-100}
           >
-           Tech I've worked with
+            Tech I've worked with
           </Link>
         ),
         key: "tech",

@@ -12,6 +12,9 @@ root {
 }
 
 .secondary-c {
-  /* color: #006d75 !important; */
   color: #13c2c2 !important;
+}
+
+.main-black {
+  background-color: #000000;
 }

@@ -121,6 +121,9 @@
 .w-40 {
   width: 40%;
 }
+.w-20 {
+  width: 20%;
+}
 
 .h-100 {
   height: 100%;
@@ -253,4 +256,8 @@
 
 .m-auto {
   margin: auto;
+}
+
+.m-l-r {
+  margin: 0 auto;
 }
