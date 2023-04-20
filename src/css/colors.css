@@ -18,3 +18,13 @@ root {
 .main-black {
   background-color: #000000;
 }
+
+.active {
+  background-color: #13c2c2 ;
+  color: #fff !important;
+}
+
+.bc-blue {
+  background-color: #0f3e7c ;
+  color: #11226a !important;
+}

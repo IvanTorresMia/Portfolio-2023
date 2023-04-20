@@ -79,7 +79,7 @@ const SideNav = () => {
           width: 256,
           height: 500,
         }}
-        className="navigation main-bc font-robo"
+        className=" main-bc font-robo"
         theme="dark"
         defaultSelectedKeys={["1"]}
         defaultOpenKeys={["sub1"]}
